@@ -1,0 +1,99 @@
+.contacts-content{
+    max-width: 1296px;
+    margin: 0 auto;
+    margin-top: 150px;
+}
+.contacts__location{
+    display: flex;
+    flex-direction: column;
+    float: right;
+}
+.contacts-content__location{
+    width: 392px;
+    height: 290px;
+    background-color: #018ABE;
+    border-radius: 10px;
+    float: right;
+}
+.contacts-content__location:last-child{
+    margin-top: 24px;
+}
+.contacts-content__info{
+    max-width: 302px;
+    margin: 0 auto;
+}
+.contacts-content__info-header{
+    font-family: ElMessiri;
+    font-size: 24px;
+    font-weight: 700;
+    color: #ffffff;
+    line-height: 140%;
+    margin-top: 35px;
+}
+.contacts-content__location-mark{
+    padding-right: 20px;
+}
+.contacts-content__info-street{
+    font-family: proximanova_regular_400;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18,9px;
+    color: #ffffff;
+    margin: 21px 0 0 0;
+}
+.contacts-content__metro-logo{
+    padding-right: 20px;
+}
+.contacts-content__info-metro{
+    font-family: proximanova_regular_400;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18,9px;
+    color: #ffffff;
+    margin: 21px 0 0 0;
+}
+.contacts-content__map {
+    border-radius: 10px;
+}
+.contacts-content__calendar{
+    padding-right: 20px;
+}
+.contacts-content__info-record{
+    font-family: proximanova_regular_400;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18,9px;
+    color: #ffffff;
+    margin: 21px 0 0 0;
+}
+.contacts-content__info-button{
+    margin-top: 30px;
+    width: 155px;
+    height: 36px;
+    background-color: #ffffff;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+    transition: linear 0.5;
+    color: #018ABE;
+}
+.copiright{
+    display: flex;
+    max-width: 1296px;
+    margin: 0 auto;
+    justify-content: space-between;
+    margin-top: 90px;
+    margin-bottom: 30px;
+}
+.copy{
+    font-family: proximanova_regular_400;
+    font-size: 14px;
+    font-weight: 400;
+    color: #ffffff;
+}
+.factory{
+    font-family: proximanova_bold_700;
+    font-size: 14px;
+    font-weight: 700;
+    color: #ffffff;
+}

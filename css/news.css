@@ -1,0 +1,73 @@
+.news-content{
+    display: flex;
+    max-width: 1298px;
+    margin: 0 auto;
+    flex-direction: column;
+}
+.news-content__image{
+    display: flex;
+    max-width: 1298px;
+    margin: 0 auto;
+    flex-direction: row;
+    margin-top: 60px;
+}
+.news-content__image:last-child{
+    margin-top: 24px;
+}
+.news-content__item{
+    margin-right: 24px;
+    width: 416px;
+    height: 258px;
+    background-image: url(../img/seans_02.png);
+    border-radius: 3px;
+}
+.news-content__item:last-child{
+    margin-right: 0;
+}
+.news-content__container{
+    display: flex;
+    max-width: 336px;
+    margin: 0 auto;
+    flex-direction: column;
+}
+.news-content__date{
+    width: 96px;
+    height: 30px;
+    font-family: proximanova_bold_700;
+    font-size: 14px;
+    line-height: 18,9px;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 8px;
+    background-color: #018ABE;
+    border-radius: 5px;
+    gap: 10px;
+    margin-top: 30px;
+}
+.news-content__text{
+    font-family: ElMessiri;
+    font-size: 21px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-top: 139px;
+}
+.seans{
+    display: flex;
+    max-width: 1298px;
+    margin: 0 auto;
+    margin-top: 150px;
+    justify-content: center;
+}
+.seans-header__icon-left{
+    margin-right: 45px;
+}
+.seans-header__icon-right{
+    margin-left: 45px;
+}
+.seans__header{
+    font-family: ElMessiri;
+    font-size: 42px;
+    font-weight: 700;
+    color: #ffffff;
+    line-height: 140%;
+}

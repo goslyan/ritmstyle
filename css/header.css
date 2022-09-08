@@ -1,0 +1,78 @@
+.nav{
+    display: flex;
+    max-width: 1298px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+.nav-logo__logo{
+    margin-right: 214px;
+    margin-top: 30px;
+    width: 60px;
+    height: 60px;
+}
+.nav-menu__list{
+    list-style: none;
+    margin-top: 51px;
+}
+.nav-menu__list-item{
+    display: inline;
+    margin-right: 50px;
+}
+.nav-menu__list-item:last-child{
+    margin-right: 0;
+}
+.nav-menu__list-link{
+    text-decoration: none;
+    font-family: proximanova_regular_400;
+    font-size: 14px;
+    color: #ffffff;
+}
+.nav-button__button{
+    font-size: 13px;
+    margin-top: 43px;
+    margin-left: 193px;
+    height: 36px;
+    width: 155px;
+    color: #ffffff;
+    background-color: #018ABE;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.intro{
+    max-width: 1298px;
+    margin: 0 auto;
+    margin-top: 50px;
+    text-align: center;
+    
+}
+.intro__bg{
+    background-image: url(../img/intro_bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 3px;
+}
+.intro-text__icon-left{
+    margin-right: 66px;
+}
+.intro__text{
+    font-family: ElMessiri;
+    font-size: 24px;
+    color: #ffffff;
+    font-weight: 700;
+    line-height: 140%;
+    padding-top: 136px;
+}
+.intro-text__icon-right{
+    margin-left: 66px;
+}
+.intro__header{
+    font-family: ElMessiri;
+    font-size: 64px;
+    font-weight: 700;
+    color: #ffffff;
+    line-height: 140%;
+    padding-bottom: 210px;
+}
+

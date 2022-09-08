@@ -1,0 +1,47 @@
+.price{
+    display: flex;
+    max-width: 1076px;
+    margin: 0 auto;
+    justify-content: center;
+}
+.price-content{
+    display: flex;
+    max-width: 1076px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+.price-content__list-price{
+    margin-top: 203px;
+}
+.price-content__list{
+    text-align: start;
+    list-style-image: url(../icon/list-img.png);
+}
+.price-content__list-item{
+    font-family: proximanova_regular_400;
+    font-size: 18px;
+    font-weight: 400;
+    color: #ffffff;
+    margin-top: 31px;
+}
+.price-content__list-item:first-child{
+    margin-top: 0;
+}
+.price-content__img{
+    margin-top: 100px;
+    margin-right: 112px;
+}
+.price-content__description{
+    max-width: 1076px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.price-content__img-description{
+    text-align: end;
+    font-family: ElMessiri;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 29,4px;
+    color: #ffffff;
+    margin-right: 254px;
+}
